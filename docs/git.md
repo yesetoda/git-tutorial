@@ -7,15 +7,17 @@ Welcome to the Git Usage Guideline for A2SV Projects. This comprehensive documen
 1. [Introduction](#introduction)
 2. [Version Control with Git and GitHub](#version-control-with-git-and-gitHubpart-one)
 3. [Combining people's work on Git](#combining-peoples-work-on-gitpart-two)
+    - [Branching in Git](#branching-in-git)
     - [Getting Started](#getting-started)
-    - [Creating and Managing Branches](#creating-and-managing-branches)
-    - [Making Changes](#making-changes)
-    - [Stage and Commit Changes](#stage-and-commit-changes)
-    - [Pushing Changes](#pushing-changes)
-    - [Creating Pull Requests](#creating-pull-requests)
-4. [Pull Request Guidelines](#pull-request-guidelines)
-5. [Git FAQs](#git-faqs)
-6. [Conclusion](#conclusion)
+    - [Merging in Git](#branching-in-git)
+    - [Rebasing in Git](#rebasing-in-git)
+    - [Getting Started](#getting-started)
+    - [Merge vs. Rebase](#merge-vs-rebase)
+4. [More on Git](#more-on-git)
+5. [Pull Request](#pull-requests)
+6. [Navigating a PR in Review](#navigating-a-pr-in-review)
+7. [Git FAQs](#git-faqs)
+8. [Conclusion](#conclusion)
 
 # Introduction
 
@@ -353,7 +355,7 @@ A **Pull Request** (PR) is a way to ask another developer to merge one of your b
 
 ### Practice Exercises
 
-- Practice PR: [GitHub Practice PR](https://github.com/A2SV/SkillBridge/pull/1)
+- Practice PR: [GitHub Practice PR](https://github.com/bontu-fufa/code-review-practice/pull/1)
 
 1. **Take a Broad View of the Change**:
    - Review the PR description and overall purpose.
