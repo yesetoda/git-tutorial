@@ -114,7 +114,7 @@ This section should give a comprehensive overview of version control using Git a
 
 1. Clone the repository to your local machine:
    ```
-   git clone https://github.com/bontu-fufa/git-tutorial-1.git
+   git clone https://github.com/bontu-fufa/git-tutorial.git
    ```
 
 #### Commands:
@@ -410,3 +410,70 @@ Refer to the Git FAQs section for answers to common Git-related questions.
 ## Conclusion
 
 Congratulations! You have completed the Git Workflow Guide for A2SV Projects. By following these best practices, you contribute to a well-organized, maintainable, and scalable codebase. If you encounter any questions or issues, don't hesitate to reach out to your team leader for assistance. Happy coding!
+
+## Updated Exercise
+
+### Practice Pull Request
+
+1. **Fork the Repository**:
+   - One student in each group of three will fork the repository.
+   - Navigate to the repository on GitHub and click the "Fork" button in the top right corner.
+   
+2. **Invite Teammates to Collaborate**:
+   - The student who forked the repository will invite their teammates to collaborate.
+   - Go to the forked repository on GitHub.
+   - Click on "Settings" > "Collaborators & teams" > "Invite a collaborator".
+   - Add the GitHub usernames of the teammates and send invitations.
+
+3. **Clone the Forked Repository**:
+   - Each teammate will clone the forked repository.
+   ```bash
+   git clone https://github.com/<your-username>/<forked-repo>.git
+   ```
+   - Navigate into the cloned repository directory.
+   ```bash
+   cd <forked-repo>
+   ```
+
+4. **Ensure Your Branch is Up to Date with the Main Branch**:
+   ```bash
+   git pull --rebase origin main
+   ```
+
+5. **Create a New Branch**:
+   ```bash
+   git checkout -b <new-branch-name>
+   ```
+
+6. **Make Changes and Commit**:
+   - Make the necessary changes in your local repository.
+   - Stage the changes.
+   ```bash
+   git add .
+   ```
+   - Commit the changes with a meaningful message.
+   ```bash
+   git commit -m "Add meaningful commit message"
+   ```
+
+7. **Push the Branch to GitHub**:
+   ```bash
+   git push origin <new-branch-name>
+   ```
+
+8. **Create a Pull Request on GitHub**:
+   - Navigate to the forked repository on GitHub.
+   - Click the "New pull request" button.
+   - Select the branch you want to merge into the main branch.
+   - Add reviewers and a title and description for your pull request.
+   - Click "Create pull request" to submit your request.
+
+9. **Address Reviewer Comments and Make Necessary Changes**:
+   - Incorporate any feedback from reviewers and update the pull request as needed.
+
+10. **Rebase Your Branch with Changes from the Main Branch Before Merging**:
+    ```bash
+    git pull --rebase origin main
+    ```
+
+11. **Merge the Pull Request Using "Squash and Merge"** to Group Smaller Commits.
